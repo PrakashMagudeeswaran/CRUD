@@ -1,0 +1,169 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+
+.header{
+  background-color:rgb(145, 181, 182);
+  padding: 10px;
+  height:8vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  gap:20px;
+
+}
+.header h3:hover{
+color: rgb(255, 255, 255);
+cursor:pointer;
+}
+.header a{
+  text-decoration: none;
+  
+  color: black;
+}
+.content{
+  margin: 10vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.content input{
+  width:80vh;
+  border:none;
+  border-bottom: 2px solid rgb(117, 87, 87);
+  padding-left: 5vh;
+  outline: none;
+  font-weight: bold;
+  font-size: larger;
+}
+.content input::placeholder{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content textarea{
+  padding: 10px;
+  font-size: large;
+  border: 2px solid rgb(117, 87, 87);
+  outline: none;
+}
+.content button{
+  border: 2px solid rgb(117, 87, 87);
+  outline: none;
+  width: 20vh;
+  font-weight: bold;
+  height: 5vh;
+
+}
+.content button:hover{
+  cursor: pointer;
+  background-color: rgb(117, 87, 87);
+}
+.outcontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top:10vh;
+  padding: 10px;
+  overflow-wrap: break-word;
+  width: 80%;
+  background-color: rgb(145, 181, 182);
+  color:rgb(59, 56, 56);
+  font-weight: bold;
+
+}
+.outcontent div{
+  color: #000;
+}
+.contentcontainer{
+  display: flex;
+  flex-direction: column;
+
+}
+.outcontent:nth-child(odd){
+  align-self: flex-start;
+}
+.outcontent:nth-child(odd){
+  align-self: flex-end;
+}
+.outcontent div p{
+font-weight: normal;
+
+}
+.outcontent div p span{
+  font-weight: bold;
+}
+.outcontent div p span:hover{
+  cursor: pointer;
+}
+.outcontent div p a{
+text-decoration: none;
+color: #000;
+}
+.read{
+  margin-top: 10vh;
+  background-color: rgb(145, 181, 182) ;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  word-wrap: break-word;
+  height: auto;
+}
+.read h3{
+  text-align:justify;
+  padding-left: 20px;
+  width:70%
+}
+.read p{
+  padding: 20px;
+}
+.read div{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 20px;
+}
+.read button{
+  width: 60px;
+  font-weight: bold;
+  height: 20px;
+  margin: 20px;
+  border: 2px solid rgb(4, 101, 133);
+  
+}
+
+.read button:hover{
+  cursor: pointer;
+  background-color:rgb(3, 66, 87) ;
+}
+.read input{
+  width:80vh;
+  border:none;
+  border-bottom: 2px solid rgb(117, 87, 87);
+  margin-left: 5vh;
+  outline: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: larger;
+}
+.read textarea{
+  padding: 10px;
+  font-size: large;
+  border: 2px solid rgb(117, 87, 87);
+  outline: none;
+  height: 80vh;
+  background-color: transparent;
+  margin: 20px;
+}
+.nothing  h3{
+  display: flex;
+  flex-direction: column;
+   text-align: center;
+   margin-top: 20vh;
+
+
+}
